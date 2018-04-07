@@ -13,7 +13,7 @@ body
 
 p
 { padding: 0 0 10px 0;
-  color: #FFF;
+  color: #AAA;
   line-height: 1.7em;
   font-size: 100% }
 
@@ -21,27 +21,27 @@ img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6 
-{ font: normal 175% Arial, Helvetica, sans-serif;
+{ font: normal 175% Arial, sans-serif;
   color: #FFF;
   text-shadow: 1px 1px #1D1D1D;
   letter-spacing: -1px;
   margin: 0 0 10px 0;}
 
 h2
-{ font: normal 165% Arial, Helvetica, sans-serif;}
+{ font: normal 165% Arial, sans-serif;}
 
 h3
-{ font: normal 130% Arial, Helvetica, sans-serif;
+{ font: normal 130% Arial, sans-serif;
 }
 
 h4, h5, h6
 { margin: 0;
   padding: 0 0 0px 0;
-  font: normal 150% Arial, Helvetica, sans-serif;
+  font: normal 150% Arial, sans-serif;
   line-height: 1.5em;}
 
 h5, h6
-{ font: normal 95% Arial, Helvetica, sans-serif;
+{ font: normal 95% Arial, sans-serif;
   color: #888;
   padding-bottom: 15px;}
 
@@ -222,6 +222,7 @@ ul#menu li:hover a
   width: 150px;
   height: 150px;
   margin: 0 20px 20px 0;
+  -webkit-transform: rotate(90deg);
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;}
@@ -238,11 +239,11 @@ ul#menu li:hover a
   text-align: center;} 
   
 #content_bottom p
- { color: #000;
-  text-shadow: 1px 1px #FFF; }  
+ { color: #FFF;
+  text-shadow: 1px 1px #000; }  
 
 #content_bottom h4
-{ color: #000;
+{ color: #FFF;
   text-shadow: none;}
   
 .content_bottom_container_box
