@@ -1,0 +1,30 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 10;
+  padding: 0;}
+
+div.col-sm-2 
+{ text-align: center;
+  border: 2px solid blue;
+  background-color: lightblue;}
+
+#title
+{ text-align: center;}
+
+#top
+{ height: 400px;
+  padding: 5px;
+  background-image: url("https://dl.dropboxusercontent.com/s/plvzimx1vhtjl6b/lights1cropped.jpg?dl=0");
+  background-size: 100% 100%;}
+
+#top h1
+{ color: #50ff00;}
+
+#top h2
+{ color: #0086ff;}
+
+#top p
+{ color: #ffff00;
+  font-size: 150%;}

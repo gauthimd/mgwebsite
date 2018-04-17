@@ -1,229 +1,59 @@
 <!DOCTYPE html>
 <html>
-<title>Dock Lights Unlimited</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif;}
-body {background-color: #869fc9;}
-.mySlides {display:none}
-.w3-tag, .fa {cursor:pointer}
-.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
-.w3-card-6 {height: 200px;width:150px}
-
-</style>
-
-<!-- Links (sit on top) -->
-<div class="w3-top">
-  <div class="w3-row w3-large w3-light-grey">
-    <div class="w3-col s2">
-      <a href="#" class="w3-button w3-block">Home</a>
-    </div>
-    <div class="w3-col s2">
-      <a href="#about" class="w3-button w3-block">About</a>
-    </div>
-    <div class="w3-col s2">
-      <a href="#gallery" class="w3-button w3-block">Gallery</a>
-    </div>
-    <div class="w3-col s2">
-      <a href="#pricing" class="w3-button w3-block">Pricing</a>
-    </div>
-    <div class="w3-col s2">
-      <a href="#company" class="w3-button w3-block">Company</a>
-    </div>
-    <div class="w3-col s2">
-      <a href="index.html" class="w3-button w3-block">Mike Gauthier</a>
-    </div>
-  </div>
-</div>
-
+<head>
+  <title>Dock Lights Unlimited</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/dockstyle.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" href="images/docklightsfav.ico" type="image/ico" 
+   size="16x16">
+</head>
 <body>
-<!-- Content -->
-<div class="w3-content" style="max-width:1100px;margin-top:80px">
 
-  <div class="w3-panel">
-    <h1><b>Dock Lights Unlimited</b></h1>
-    <p>Underwater lights for fishing and ambience</p>
-  </div>
-
-  <!-- Slideshow -->
-  <div class="w3-container">
-    <div class="w3-display-container mySlides">
-      <img src="https://dl.dropboxusercontent.com/s/plvzimx1vhtjl6b/lights1cropped.jpg?dl=0" i
-       style="width:100%">
-      <div class="w3-display-topleft w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">Make your dock look amazing!</span>
+  <div class="container-fluid">
+    <div class="row" id="navbar">
+      <div class="col-sm-2">
+        <a href="#">Home</a>
       </div>
-    </div>
-    <div class="w3-display-container mySlides">
-      <img src="https://dl.dropboxusercontent.com/s/ldfjhnp1twnn7tn/fishlights.jpg?dl=0" 
-       style="width:100%">
-      <div class="w3-display-topmiddle w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">Guaranteed to attract fish!</span>
+      <div class="col-sm-2">
+        <a href="#products">Products</a>
       </div>
-    </div>
-    <div class="w3-display-container mySlides">
-      <img src="https://dl.dropboxusercontent.com/s/sw4jl1gz9du3bbv/dockcropped.jpg?dl=0" 
-       style="width:100%">
-      <div class="w3-display-topright w3-container w3-padding-32">
-        <span class="w3-white w3-padding-large w3-animate-bottom">Multicolor or single colors 
-         available</span>
+      <div class="col-sm-2">
+        <a href="#pricing">Pricing</a>
       </div>
-    </div>
-
-    <!-- Slideshow next/previous buttons -->
-    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
-      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
-      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
-    
-      <div class="w3-center">
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      <div class="col-sm-2">
+        <a href="#faq">FAQ</a>
       </div>
-    </div>
-  </div>
-  
-  <!-- Grid -->
-  <div class="w3-row w3-container" id="about">
-    <div class="w3-center w3-padding-64">
-      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Offer</span>
-    </div>
-    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
-      <h3>Design</h3>
-      <p>My lights are awesome</p>
-    </div>
-
-    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
-      <h3>Branding</h3>
-      <p>Buy my lights</p>
-    </div>
-
-    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
-      <h3>Consultation</h3>
-      <p>Let's talk about you buying my lights</p>
-    </div>
-
-    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
-      <h3>Promises</h3>
-      <p>If you buy my lights, I promise you will love them</p>
-    </div>
-  </div>
-
-  <!-- Grid -->
-  <div class="w3-row w3-container">
-    <div class="w3-row-padding" id="gallery">
-      <div class="w3-center w3-padding-64">
-        <h2>Gallery</h2>
+      <div class="col-sm-2">
+        <a href="#about">About</a>
       </div>
-  
-      <div class="w3-third w3-margin-bottom">
-        <img src="https://dl.dropboxusercontent.com/s/y9ikcqhuw8fbwcv/docksetup2.jpg?dl=0" 
-         style="width:100%">
-        <img src="https://dl.dropboxusercontent.com/s/vqyw2qvfa8gym4m/docksetup4.jpg?dl=0" 
-         style="width:100%">
-        <img src="https://dl.dropboxusercontent.com/s/wgjd9i2gm8py138/fishlight.jpg?dl=0" 
-         style="width:100%">
-      </div>
-  
-      <div class="w3-third w3-margin-bottom">
-        <img src="https://dl.dropboxusercontent.com/s/uoaumes6st6dvxn/mountedbox.jpg?dl=0" 
-         style="width:100%" "-webkit-transform: rotate(90deg)">
-        <img src="https://dl.dropboxusercontent.com/s/xc9kzo7pumsyges/lightfront2.jpg?dl=0" 
-         style="width:100%">
-        <img src="https://dl.dropboxusercontent.com/s/21zdxe92l6xyw87/fishlightsuncrop.jpg?dl=0" 
-         style="width:100%">
-      </div>
-  
-      <div class="w3-third w3-margin-bottom">
-        <img src="https://dl.dropboxusercontent.com/s/ianqbguw44mi0wq/docksetup3.jpg?dl=0" 
-         style="width:100%">
-        <img src="https://dl.dropboxusercontent.com/s/lvzl7b1564v5f6q/docksetup.jpg?dl=0" 
-         style="width:100%">
-        <img src="https://dl.dropboxusercontent.com/s/nwy275jt5ols63c/lightfront.jpg?dl=0" 
-         style="width:100%">
+      <div class="col-sm-2">
+        <a href="#contact">Contact</a>
       </div>
     </div>
   </div>
 
-  <!-- Grid -->
-  <div class="w3-row w3-container">
-    <div class="w3-row-padding" id="company">
-      <div class="w3-center w3-padding-64">
-        <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who We Are</span>
+  <div class="container-fluid" id="top">
+    <div class="row">
+      <div class ="col-sm-4" id="logo">
+        <img class="img-responsive" src="images/logotrans.png" id="logo">
       </div>
-      <div class="w3-half">
-        <div class="w3-card-6">
-          <img src="https://dl.dropboxusercontent.com/s/sqdik43i32fqesp/mgauthier2.jpg?dl=0" alt="Mike Gauthier" style="height:50%;transform:rotate(-90deg)">
-          <h3>Mike Gauthier</h3>
-          <p class="w3-opacity">CEO &amp; Engineer</p>
-          <p>Lead product development engineer</p>
-        </div>
+      <div class = "col-sm-8" id="title">
+        <h1><b>100 Watt LED Green Fish Lights!</b></h1>
+        <h2><b>Brightest LED Fish Lights on the Market</b></h2>
+        <h1><b>Smart Phone Controlled Multicolor Lights!!</b></h1>
+        <h2><b>Available Exclusively at Dock Lights Unlimited</b></h2>
+        <p><b>Fish lights sold country-wide<br>Multicolor currently 
+           only available in East Texas</b></p>
       </div>
-  
-      <div class="w3-half">
-        <div class="w3-card-6" style="text-align:left">
-          <img src="https://dl.dropboxusercontent.com/s/wnk58ad2rujixxg/mckitty.jpg?dl=0" alt="Ricky Whitaker" style="height:50%">
-          <h3>Ricky Whitaker</h3>
-          <p class="w3-opacity">Developer</p>
-          <p>Lead remote control application developer</p>
-        </div>
-      </div>
-  
     </div>
   </div>
-</div>
 
-<!-- Footer -->
-
-<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
-  <h4>Footer</h4>
-  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <div class="container-fluid" id="about">
+    <div class="row" id="about">
   </div>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
-
-
-<script>
-// Slideshow
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demodots");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length} ;
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
-
 </body>
 </html>
-
