@@ -2,12 +2,15 @@ html
 { height: 100%;}
 
 *
-{ margin: 10;
+{ margin: 5;
   padding: 0;}
+
+#navbar
+{ border: 1px solid blue;}
 
 div.col-xs-2 
 { text-align: center;
-  border: 2px solid blue;
+  border: 1px solid blue;
   background-color: lightblue;}
 
 #title
