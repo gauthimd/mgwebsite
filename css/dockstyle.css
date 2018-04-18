@@ -3,7 +3,14 @@ html
 
 *
 { margin: 5;
-  padding: 0;}
+  padding: 5;}
+.affix 
+{ top: 0;
+  width: 100%;
+  z-index: 9999 !important;}
+
+.affix + .container-fluid 
+{  padding-top: 70px;}
 
 #navbar
 { border: 1px solid blue;}
@@ -15,9 +22,6 @@ div.col-xs-2
 
 #title
 { text-align: center:}
-
-#top
-{ padding: 5px;}
 
 #logo
 { margin: 0 auto}
@@ -35,9 +39,6 @@ div.col-xs-2
 #top p
 { color: #ffff00;
   font-size: 150%;}
-
-#abouttitle
-{ background-color: #AAAAAA;}
 
 #Mike
 { background-color: #BBBBBB;}
