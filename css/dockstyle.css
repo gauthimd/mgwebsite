@@ -5,18 +5,22 @@ html
 { margin: 10;
   padding: 0;}
 
-div.col-sm-2 
+div.col-xs-2 
 { text-align: center;
   border: 2px solid blue;
   background-color: lightblue;}
 
 #title
-{ text-align: center;}
+{ text-align: center:}
 
 #top
-{ height: 400px;
-  padding: 5px;
-  background-image: url("https://dl.dropboxusercontent.com/s/plvzimx1vhtjl6b/lights1cropped.jpg?dl=0");
+{ padding: 5px;}
+
+#logo
+{ margin: 0 auto}
+
+#title
+{ background-image: url("https://dl.dropboxusercontent.com/s/plvzimx1vhtjl6b/lights1cropped.jpg?dl=0");
   background-size: 100% 100%;}
 
 #top h1
