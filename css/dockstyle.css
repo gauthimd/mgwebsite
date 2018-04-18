@@ -24,11 +24,7 @@ div.col-xs-2
 { text-align: center:}
 
 #logo
-{ margin: 0 auto}
-
-#title
-{ background-image: url("https://dl.dropboxusercontent.com/s/plvzimx1vhtjl6b/lights1cropped.jpg?dl=0");
-  background-size: 100% 100%;}
+{ margin: 0 auto;}
 
 #top h1
 { color: #50ff00;}
@@ -39,6 +35,16 @@ div.col-xs-2
 #top p
 { color: #ffff00;
   font-size: 150%;}
+
+#topfish
+{ height: 303px;
+  background-image: url("https://dl.dropboxusercontent.com/s/w2emvrl4umjtomv/green.JPG?dl=0");
+  background-size: 100%;}
+
+#topmulti
+{ height: 303px;
+  background-image: url("https://dl.dropboxusercontent.com/s/vqrvud6xrn67r5x/docklights.gif?dl=0");
+  background-size: 100%;}
 
 #Mike
 { background-color: #BBBBBB;}
