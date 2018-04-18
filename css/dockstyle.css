@@ -28,3 +28,13 @@ div.col-sm-2
 #top p
 { color: #ffff00;
   font-size: 150%;}
+
+#abouttitle
+{ background-color: #AAAAAA;}
+
+#Mike
+{ background-color: #BBBBBB;}
+
+#Ricky
+{ background-color: #CCCCCC;
+  text-align: right;}
